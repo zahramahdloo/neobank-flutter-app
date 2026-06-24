@@ -1,17 +1,124 @@
-# neo_bank
+# NeoBank - Flutter Banking App
 
-A new Flutter project.
+A modern RTL mobile banking application built with Flutter.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+NeoBank is a portfolio-ready mobile banking app built with Flutter.
+The project focuses on clean UI, Persian RTL support, responsive layouts, theme management, routing, and a scalable feature-based structure.
 
-A few resources to get you started if this is your first Flutter project:
+This project demonstrates practical Flutter development skills such as UI implementation, app architecture, state management, reusable widgets, and preparing a mobile app for public portfolio use.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Persian RTL user interface
+* Modern mobile banking UI
+* Dark and light theme support
+* Responsive layout
+* Custom animated logo
+* Splash screen
+* Authentication pages
+* Dashboard navigation
+* Home screen with balance card and transactions
+* Services page
+* Profile page
+* Clean feature-based folder structure
+
+## Tech Stack
+
+* Flutter
+* Dart
+* Bloc / Cubit
+* GoRouter
+* Dio
+* Get It
+* ScreenUtil
+* Material 3
+
+## Project Structure
+
+```txt
+lib/
+├── core/
+│   ├── constants/
+│   ├── dependency_injection/
+│   ├── error/
+│   ├── network/
+│   ├── routes/
+│   ├── theme/
+│   ├── utils/
+│   └── widgets/
+│
+├── features/
+│   ├── auth/
+│   ├── dashboard/
+│   ├── home/
+│   ├── profile/
+│   ├── services/
+│   └── splash/
+│
+└── main.dart
+```
+
+## Screenshots
+
+Screenshots will be added soon.
+
+## Local Fonts
+
+This project uses local font files for Persian UI.
+Font files are intentionally not included in this public repository.
+
+To run the project locally, add the required font files inside:
+
+```txt
+assets/fonts/
+```
+
+Required files:
+
+```txt
+IRANYekanRegular.ttf
+IRANYekanMedium.ttf
+IRANYekanBold.ttf
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/zahramahdloo/neobank-flutter-app.git
+cd neobank-flutter-app
+```
+
+Install dependencies:
+
+```bash
+flutter pub get
+```
+
+Run the app:
+
+```bash
+flutter run
+```
+
+## Build APK
+
+```bash
+flutter build apk --release
+```
+
+## What I Learned
+
+* Building RTL Flutter applications
+* Creating a scalable project structure
+* Managing app theme with Cubit
+* Implementing feature-based architecture
+* Working with custom widgets
+* Preparing a Flutter project for public portfolio use
+
+## Status
+
+This project is under active development.
