@@ -62,7 +62,17 @@ lib/
 
 ## Screenshots
 
-Screenshots will be added soon.
+### Login Screen
+
+![Login Screen](screenshots/login.screen.png)
+
+### Home Screen
+
+![Home Screen](screenshots/home_page.png)
+
+### Services Screen
+
+![Services Screen](screenshots/services_page.png)
 
 ## Local Fonts
 
