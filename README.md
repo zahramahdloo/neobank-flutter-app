@@ -62,17 +62,12 @@ lib/
 
 ## Screenshots
 
-### Login Screen
+<p align="center">
+  <img src="screenshots/login.screen.png" width="250" alt="Login Screen" />
+  <img src="screenshots/home_page.png" width="250" alt="Home Screen" />
+  <img src="screenshots/services_page.png" width="250" alt="Services Screen" />
+</p>
 
-![Login Screen](screenshots/login.screen.png)
-
-### Home Screen
-
-![Home Screen](screenshots/home_page.png)
-
-### Services Screen
-
-![Services Screen](screenshots/services_page.png)
 
 ## Local Fonts
 
